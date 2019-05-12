@@ -1,0 +1,4 @@
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+alias dotdrop='/home/sean/workspace/dotfiles/dotdrop.sh --cfg=/home/sean/workspace/dotfiles/config.yaml'

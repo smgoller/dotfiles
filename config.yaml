@@ -1,0 +1,24 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  ignoreempty: false
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  f_bashrc:
+    dst: ~/.bashrc
+    src: bashrc
+  f_gitconfig:
+    dst: ~/.gitconfig
+    src: gitconfig
+profiles:
+  develop:
+    dotfiles:
+    - f_bashrc
+    - f_gitconfig
