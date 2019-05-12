@@ -17,8 +17,12 @@ dotfiles:
   f_gitconfig:
     dst: ~/.gitconfig
     src: gitconfig
+  f_profile:
+    dst: ~/.profile
+    src: profile
 profiles:
   develop:
     dotfiles:
     - f_bashrc
     - f_gitconfig
+    - f_profile
