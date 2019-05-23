@@ -20,9 +20,17 @@ dotfiles:
   f_profile:
     dst: ~/.profile
     src: profile
+  f_tmux.conf:
+    dst: ~/.tmux.conf
+    src: tmux.conf
+  f_tmux.conf.local:
+    dst: ~/.tmux.conf.local
+    src: tmux.conf.local
 profiles:
   develop:
     dotfiles:
     - f_bashrc
     - f_gitconfig
     - f_profile
+    - f_tmux.conf
+    - f_tmux.conf.local
